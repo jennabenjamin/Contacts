@@ -14,6 +14,7 @@
 		BD9F3F20217817E200E81F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9F3F1E217817E200E81F27 /* LaunchScreen.storyboard */; };
 		BD9F3F2B217817E300E81F27 /* TableViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F3F2A217817E300E81F27 /* TableViewTestTests.swift */; };
 		BD9F3F36217817E300E81F27 /* TableViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F3F35217817E300E81F27 /* TableViewTestUITests.swift */; };
+		BD9F3F44217818C600E81F27 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F3F43217818C600E81F27 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BD9F3F31217817E300E81F27 /* TableViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9F3F35217817E300E81F27 /* TableViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTestUITests.swift; sourceTree = "<group>"; };
 		BD9F3F37217817E300E81F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9F3F43217818C600E81F27 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				BD9F3F1C217817E200E81F27 /* Assets.xcassets */,
 				BD9F3F1E217817E200E81F27 /* LaunchScreen.storyboard */,
 				BD9F3F21217817E200E81F27 /* Info.plist */,
+				BD9F3F43217818C600E81F27 /* TableViewController.swift */,
 			);
 			path = TableViewTest;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9F3F18217817E100E81F27 /* ViewController.swift in Sources */,
+				BD9F3F44217818C600E81F27 /* TableViewController.swift in Sources */,
 				BD9F3F16217817E100E81F27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
